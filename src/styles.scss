@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss';
+
+.canvas-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+
+  @apply bg-linear-180 from-pink-900 via-sky-600 to-purple-900;
+}
+
+.canvas-container > * {
+  pointer-events: none;
+}
