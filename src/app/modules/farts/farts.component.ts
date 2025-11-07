@@ -27,7 +27,7 @@ export class FartsComponent implements OnInit, AfterViewInit, OnDestroy {
     y: 'sounds/farts/6.mp3',
     u: 'sounds/farts/7.mp3',
     i: 'sounds/farts/8.mp3',
-    o: 'sounds/farts/9.mp3',
+    o: 'sounds/farts/9.m4a',
     p: 'sounds/farts/10.mp3',
     a: 'sounds/farts/11.mp3',
     s: 'sounds/farts/12.mp3',
